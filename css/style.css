@@ -142,17 +142,17 @@ body {
 
 /* Main styles start */
 
-.page__main-block {
+.page__intro {
     background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
     border-radius: 0px;
     padding: 100px 0px 0px 0px;
 }
 
-.main-block__container {
+.intro__container {
     position: relative;
 }
 
-.main-block__body {
+.intro__body {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -162,7 +162,7 @@ body {
     z-index: 2;
 }
 
-.main-block__title {
+.intro__title {
     font-weight: 400;
     font-size: 80px;
     line-height: 100%;
@@ -170,16 +170,16 @@ body {
     margin-bottom: 10px;
 }
 
-.main-block__subtitle {
+.intro__subtitle {
     font-weight: 400;
     font-size: 30px;
-    line-height: 146.66%;
+    line-height: 146%;
     color: #FFFFFF;
     margin-bottom: 45px;
     max-width: 677px;
 }
 
-.main-block__button {
+.intro__button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,25 +189,25 @@ body {
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
-    line-height: 162.5%;
+    line-height: 162%;
     color: #FFFFFF;
     max-width: 170px;
 }
 
-.main-block__button:hover,
-.main-block__button:focus,
-.main-block__button:active {
+.intro__button:hover,
+.intro__button:focus,
+.intro__button:active {
     background-color: #450e4b;
 }
 
-.main-block_image {
+.intro_image {
     position: absolute;
     top: 0;
     left: 55%;
     z-index: 1;
 }
 
-.main-block_image img {
+.intro_image img {
     animation-name: PhoneAnimation;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -219,7 +219,7 @@ body {
     }
 }
 
-.main-block__arrow {
+.intro__arrow {
     position: absolute;
     bottom: 30px;
     right: 50%;
@@ -227,42 +227,41 @@ body {
     z-index: 2;
 }
 
-.main-block__arrow:hover {
+.intro__arrow:hover {
     transform: translateY(15px);
 }
 
 @media screen and (max-width: 1115px) {
-    .main-block_image {
+    .intro_image {
         opacity: 40%;
     }
 }
 
 
 @media screen and (max-width: 708px) {
-    .main-block__body {
+    .intro__body {
         padding: 130px 0px;
     }
 
-    .main-block__title {
+    .intro__title {
         font-size: 50px;
         margin: 10px 0px;
     }
 
-    .main-block__subtitle {
+    .intro__subtitle {
         font-size: 18px;
         margin-bottom: 25px;
     }
 
-    .main-block_image img {
+    .intro_image img {
         height: 400px;
     }
 }
 
 @media screen and (max-width: 410px) {
-    .main-block__button {
+    .intro__button {
         max-width: 100%;
     }
 }
-
 
 /* Main styles end */
