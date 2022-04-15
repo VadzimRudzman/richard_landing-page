@@ -262,7 +262,6 @@ body {
     }
 }
 
-
 @media screen and (max-width: 708px) {
     .intro__body {
         padding: 130px 0px;
@@ -478,7 +477,6 @@ body {
     text-align: center;
 }
 
-
 @media screen and (max-width: 1120px) {
     .advantages__container {
         margin-bottom: 100px;
@@ -544,9 +542,7 @@ body {
     color: #000000;
 }
 
-
 @media screen and (max-width: 788px) {
-
     .advantages__container {
         margin-bottom: 80px;
     }
@@ -569,7 +565,6 @@ body {
 }
 
 @media screen and (max-width: 412px) {
-
     .advantages__container {
         margin-bottom: 50px;
     }
@@ -673,18 +668,6 @@ body {
     max-height: 100%;
 }
 
-/* .qoute__resource {
-    display: grid;
-    grid-template-columns: 99px 70px 1fr;
-    position: relative;
-    font-size: 16px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 188%;
-    color: #6B6B6B;
-    margin-bottom: 88px;
-} */
-
 .qoute__resource strong {
     font-weight: bold;
     grid-column-start: 3;
@@ -743,4 +726,299 @@ body {
     }
 }
 
+.page__partners {
+    margin-bottom: 78px;
+}
+
+.partners__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    opacity: 50%;
+}
+
+@media screen and (max-width: 788px) {
+    .partners__items {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .page__qoute {
+        margin-bottom: 50px;
+    }
+
+    .partners__item {
+        padding: 20px;
+    }
+
+    .page__partners {
+        margin-bottom: 39px;
+    }
+}
+
+.download__application-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download__application-pic img {
+    max-width: 100%;
+}
+
+.page__download {
+    background: linear-gradient(276.18deg, #6E28B1 0%, rgba(0, 0, 0, 0) 100%), #FC0A7E;
+}
+
+.download__body {
+    text-align: center;
+    padding: 165px 0px 156px 0px;
+}
+
+.download__title {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 126%;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.download__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.download__button {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 40px;
+    background: #FC0A7E;
+    border-radius: 3px;
+    width: 196px;
+    height: 66px;
+}
+
+.download__button:hover, 
+.download__button:focus, 
+.download__button:active {
+    background-color: #450e4b;
+}
+
+.download__button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.download__button-transparent {
+    background: transparent;
+    border: 1px solid #450e4b;
+}
+
+@media screen and (max-width: 788px) {
+    .download__body {
+        padding: 80px 0px 70px 0px;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    .download__title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .download__body {
+        padding: 50px 0px 40px 0px;
+    }
+
+    .download__buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .download__button:not(:last-child) {
+        margin: 0px 0px 10px 0px;
+    }
+}
+
+.page__subscribe {
+    background-color: #1B1B1B;
+}
+
+.subscribe__body {
+    display: flex;
+    flex-direction: column;
+    padding: 129px 0px 126px 0px;
+    text-align: center;
+}
+
+.subscribe__title {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 126%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.subscribe__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    color: #6B6B6B;
+    margin-bottom: 40px;
+}
+
+.subscribe__form {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe__email {
+    padding: 22px;
+    border: none;
+    border-radius: 3px 0px 0px 3px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 311px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:#1C1C1C;
+ }
+ :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#1C1C1C;
+ }
+ ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #1C1C1C;
+ }
+ :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #1C1C1C;
+ }
+
+.subscribe__button {
+   padding: 22px 40px;
+   background-color: #FC0A7E;
+   border-radius: 0px 3px 3px 0px;
+   border: none;
+   font-family: 'Gothic A1';
+   font-weight: 400;
+   font-size: 16px;
+   color: #1C1C1C;
+}
+
+.subscribe__button:hover, 
+.subscribe__button:focus, 
+.subscribe__button:active {
+    background-color: #c10b62;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 432px) {
+    .subscribe__body{
+        padding-top: 50px;
+    }
+
+    .subscribe__title {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .subscribe__subtitle {
+        margin-bottom: 20px;
+    }
+
+    .subscribe__form {
+        flex-wrap: wrap;
+    }
+
+    .subscribe__email {
+        width: 250px;
+        text-align: center;
+        border-radius: 0px;
+    }
+
+    .subscribe__button {
+        width: 250px;
+        border-radius: 0px;
+     }
+}
+
 /* Main styles end */
+
+
+/* Footer styles start */
+
+.footer {
+    background: #1B1B1B;
+}
+
+.footer__container {
+    max-width: 575px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer__body {
+    padding: 20px 0px 70px 0px;
+    text-align: center;
+}
+
+.footer__logo {
+    margin-bottom: 30px;
+}
+
+.menu-footer__links {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    column-gap: 30px;
+}
+
+.menu-footer-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 182%;
+    color: #6B6B6B;
+    white-space: nowrap;
+}
+
+.menu-footer-link:hover, 
+.menu-footer-link:focus, 
+.menu-footer-link:active{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 538px) {
+    .subscribe__body {
+        padding-bottom: 70px;
+    }
+    .menu-footer-link {
+        grid-column: span 6;
+    }
+
+    .footer__body {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: left;
+    }
+
+    .footer__body {
+        padding-bottom: 30px; 
+    }
+}
+
+@media screen and (max-width: 432px) {
+    .footer__body {
+        padding-bottom: 30px; 
+    }
+}
+
+/* Footer styles end */
